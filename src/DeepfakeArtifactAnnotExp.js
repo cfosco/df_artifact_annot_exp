@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { withStyles, MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { withStyles, MuiThemeProvider, createTheme } from '@material-ui/core/styles';
 import { Button, Popover, Typography } from '@material-ui/core';
-import videoData from './new_exp2_5levels_id0.json';
+import videoData from './ff_jsons/debug.json';
 import $ from 'jquery';
 import { Progress } from 'react-sweet-progress';
 import Slider from 'rc-slider';
@@ -86,7 +86,7 @@ const styles = theme => ({
   },
 });
 
-const THEME = createMuiTheme({
+const THEME = createTheme({
   typography: {
    "fontFamily": "'Raleway', sans-serif",
    "fontSize": 14,
@@ -98,7 +98,7 @@ const THEME = createMuiTheme({
 
 const maxVideoDuration = 3;
 
-class DeepFakeClick extends Component {
+class DeepfakeArtifactAnnotExp extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -123,6 +123,7 @@ class DeepFakeClick extends Component {
 
     this.canvasRef = React.createRef();
     this.videoRef = React.createRef();
+    this.popoverRef = React.createRef();
 
     this._handleClick = this._handleClick.bind(this);
     this._handleClose = this._handleClose.bind(this);
@@ -442,10 +443,11 @@ class DeepFakeClick extends Component {
         <div className={classes.root}>
           <div className={classes.topSection}>
             <Typography variant="h2" style={{marginBottom: 16}}>
-                Deep Fake Click
+                Deepfake Artifact Annotation Experiment
             </Typography>
             <Button id="instruction-button" variant="contained" color="primary" onClick={this._handleClick}>Instructions</Button>
             <Popover
+              ref={this.popoverRef}
               id={id}
               open={open}
               anchorEl={anchorEl}
@@ -539,7 +541,7 @@ class DeepFakeClick extends Component {
               <Button variant="contained" className={classes.startButton} onClick={this._handlePlayButton}>
                 { this.state.pause ? "PLAY" : "PAUSE"}
               </Button>
-              <Typography variant="subtitle">
+              <Typography variant="subtitle1">
                 Adjust Brush Size ({brushSize} px):
               </Typography>
               <Slider style={{marginTop: 8, width: '40%'}} min={3} max={24} defaultValue={brushSize} handle={handle}
@@ -569,4 +571,4 @@ class DeepFakeClick extends Component {
   }
 }
 
-export default withStyles(styles)(DeepFakeClick);
+export default withStyles(styles)(DeepfakeArtifactAnnotExp);

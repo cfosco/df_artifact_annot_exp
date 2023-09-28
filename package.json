@@ -1,13 +1,14 @@
 {
-  "name": "dfclick",
+  "name": "df_artifact_annot_exp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://allenjlee.github.io/dfclick",
+  "homepage": "https://camilofosco.com/df_artifact_annot_exp",
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "browser-process-hrtime": "^1.0.0",
     "dropbox": "^4.0.30",
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.0",
