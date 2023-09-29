@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/df_artifact_annot_exp/static/css/main.1dd51469.chunk.css",
-    "main.js": "/df_artifact_annot_exp/static/js/main.d60075f9.chunk.js",
-    "main.js.map": "/df_artifact_annot_exp/static/js/main.d60075f9.chunk.js.map",
+    "main.js": "/df_artifact_annot_exp/static/js/main.0078e3f6.chunk.js",
+    "main.js.map": "/df_artifact_annot_exp/static/js/main.0078e3f6.chunk.js.map",
     "runtime-main.js": "/df_artifact_annot_exp/static/js/runtime-main.a14a9cd5.js",
     "runtime-main.js.map": "/df_artifact_annot_exp/static/js/runtime-main.a14a9cd5.js.map",
     "static/css/2.399453d7.chunk.css": "/df_artifact_annot_exp/static/css/2.399453d7.chunk.css",
-    "static/js/2.76e133d8.chunk.js": "/df_artifact_annot_exp/static/js/2.76e133d8.chunk.js",
-    "static/js/2.76e133d8.chunk.js.map": "/df_artifact_annot_exp/static/js/2.76e133d8.chunk.js.map",
+    "static/js/2.2d8ff13c.chunk.js": "/df_artifact_annot_exp/static/js/2.2d8ff13c.chunk.js",
+    "static/js/2.2d8ff13c.chunk.js.map": "/df_artifact_annot_exp/static/js/2.2d8ff13c.chunk.js.map",
     "index.html": "/df_artifact_annot_exp/index.html",
-    "precache-manifest.48ce4be59b826e3161dcba84f16c06e4.js": "/df_artifact_annot_exp/precache-manifest.48ce4be59b826e3161dcba84f16c06e4.js",
+    "precache-manifest.d06a8551f7e0550de776aaa7e44a8899.js": "/df_artifact_annot_exp/precache-manifest.d06a8551f7e0550de776aaa7e44a8899.js",
     "service-worker.js": "/df_artifact_annot_exp/service-worker.js",
     "static/css/2.399453d7.chunk.css.map": "/df_artifact_annot_exp/static/css/2.399453d7.chunk.css.map",
     "static/css/main.1dd51469.chunk.css.map": "/df_artifact_annot_exp/static/css/main.1dd51469.chunk.css.map",
-    "static/js/2.76e133d8.chunk.js.LICENSE.txt": "/df_artifact_annot_exp/static/js/2.76e133d8.chunk.js.LICENSE.txt",
+    "static/js/2.2d8ff13c.chunk.js.LICENSE.txt": "/df_artifact_annot_exp/static/js/2.2d8ff13c.chunk.js.LICENSE.txt",
     "static/media/dodont.png": "/df_artifact_annot_exp/static/media/dodont.524ef8d4.png",
     "static/media/instr_gif_1.gif": "/df_artifact_annot_exp/static/media/instr_gif_1.2fb621ca.gif",
     "static/media/instr_gif_2.gif": "/df_artifact_annot_exp/static/media/instr_gif_2.54bbf15b.gif",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.a14a9cd5.js",
     "static/css/2.399453d7.chunk.css",
-    "static/js/2.76e133d8.chunk.js",
+    "static/js/2.2d8ff13c.chunk.js",
     "static/css/main.1dd51469.chunk.css",
-    "static/js/main.d60075f9.chunk.js"
+    "static/js/main.0078e3f6.chunk.js"
   ]
 }
